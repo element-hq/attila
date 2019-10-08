@@ -1,7 +1,7 @@
 <nav id="menu">
 	<a class="close-button">{{t "Close"}}</a>
 	<div class="nav-wrapper">
-		<p class="nav-label">{{t "Menu"}}</p>
+		<p class="nav-label">{{t "Blog Menu"}}</p>
 		<ul>
 			{{#foreach navigation}}
 			<li class="nav-{{slug}}{{#if current}} active{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
@@ -17,6 +17,7 @@
 			{{else}}
 			<li class="nav-rss"><a href="{{@site.url}}/rss/"><i class="ic ic-rss"></i> {{t "Subscribe"}}</a></li>
 			{{/if}}
+			<li ><a href="https://vector.im" target="_blank">Go to vector.im</a></li>
 		</ul>
 	</div>
 </nav>
