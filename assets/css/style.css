@@ -629,7 +629,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	-webkit-transition: all ease-out 0.2s;
 	transition: all ease-out 0.2s
 }
@@ -653,7 +653,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #000
 }
@@ -718,7 +718,7 @@ ol>li:before {
 	position: absolute;
 	width: 1.5em;
 	margin-left: -2em;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5em;
@@ -805,7 +805,7 @@ dl {
 }
 
 dl dt {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -936,7 +936,7 @@ table td {
 }
 
 table th {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -989,7 +989,7 @@ img {
 }
 
 .kg-image-card figcaption {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	color: #8a9199;
 	text-align: center;
 	max-width: 32em;
@@ -1011,7 +1011,7 @@ img {
 }
 
 .kg-gallery-card figcaption {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	color: #8a9199;
 	text-align: center;
 	max-width: 32em;
@@ -1094,7 +1094,7 @@ img {
 }
 
 .kg-bookmark-content {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	text-rendering: optimizeLegibility;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1153,7 +1153,7 @@ img {
 }
 
 .kg-bookmark-metadata {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	text-rendering: optimizeLegibility;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1368,7 +1368,7 @@ img {
 	z-index: 10;
 	margin: 0;
 	padding: 0;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-weight: 700;
 	font-size: 1em;
 	line-height: 1em;
@@ -1460,7 +1460,7 @@ img {
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
 	border: 1px solid var(--forest);
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.66666em;
 	text-shadow: none;
@@ -1517,7 +1517,7 @@ img {
 	border-left: 1px solid var(--forest);
 	z-index: 400;
 	overflow: hidden;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	-webkit-box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
 	box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
 	-webkit-transform: translate3d(16em, 0, 0);
@@ -1702,7 +1702,7 @@ img {
 #footer {
 	position: relative;
 	z-index: 20;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	line-height: 1em;
 	padding-bottom: 6em
 }
@@ -1913,7 +1913,7 @@ img {
 	z-index: 10;
 	display: block;
 	margin-bottom: 1.33333em;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	line-height: 1.33333em;
@@ -1984,7 +1984,7 @@ img {
 }
 
 .post-info {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	margin-top: 2em
 }
 
@@ -2217,7 +2217,7 @@ img {
 	margin: 0;
 	padding: 0.5em 1.25em;
 	border: 1px solid #c2c7cc;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.33333em;
 	color: #8a9199;
