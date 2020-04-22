@@ -11,7 +11,7 @@
 
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 	<link rel="stylesheet" type="text/css" href="{{asset "css/customStyle.css"}}" />
-	<link rel="stylesheet" href="https://modular.im/_next/static/fonts.css">
+	<link rel="stylesheet" type="text/css" href="{{asset "css/fonts.css"}}" />
 
 	{{ghost_head}}
 </head>
@@ -77,9 +77,9 @@
 				{{#if @site.secondary_navigation}}
 				{{navigation type="secondary"}}
 				{{else}}
-				<span class="nav-copy">{{@site.title}} &copy; {{date format='YYYY'}}</span>
+				<span class="nav-copy">Published with <a href="https://ghost.org">Ghost</a></span>
 				{{/if}}
-				<span class="nav-credits">{{t "Published with"}} <a href="https://ghost.org">Ghost</a> &bull; {{t "Theme" }} <a href="https://github.com/zutrinken/attila">Attila</a></span>
+				<span class="nav-credits"><span class="credits-theme">Theme based on <a href="https://github.com/zutrinken/attila">Attila</a> by <a href="https://zutrinken.com" rel="nofollow">zutrinken</a></span></span>
 			</nav>
 		</div>
 

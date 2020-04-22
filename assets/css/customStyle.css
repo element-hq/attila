@@ -1,28 +1,45 @@
 /* Make the header on front page less tall */
+
 .blog-header.has-cover {
     padding-top: calc(12rem + 2vw);
 }
 
+
 /* Make the header in a post less tall */
+
 .post-header.has-cover {
     padding: calc(8rem + 4vw) 0 calc(2rem + 3vw);
 }
 
+
 /* Less blackness on images */
+
 .post-cover {
     background: none;
     animation: none;
 }
 
+
 /* Post header */
+
 .post-header .post-title {
     font-size: 4em;
+    text-shadow: 2px 2px black;
 }
 
+
 /* Set all font color and background */
-body, .post-content b, .post-content strong, .post-content li,
-.post-content h1, .post-content h2, .post-content h3, .post-content h4,
-.post-content h5, .post-content h6 {
+
+body,
+.post-content b,
+.post-content strong,
+.post-content li,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
     background: white;
     color: #606060;
     font-weight: normal;
@@ -32,104 +49,175 @@ body {
     text-rendering: optimizelegibility;
 }
 
+
 /* Headers */
-.post-content h1, .post-content h2, .post-content h3, .post-content h4,
-.post-content h5, .post-content h6 {
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
     font-weight: 300;
     line-height: 1.5;
     color: #1e2022;
 }
 
+
 /* Font size */
-    .post-content, .post-excerpt {
+
+.post-content,
+.post-excerpt {
     font-size: 1.7em;
 }
+
 .post-content h1 {
-        font-size: 3rem;
+    font-size: 3rem;
 }
+
 .post-title {
     font-size: 3rem;
     font-weight: normal;
 }
+
+
 /*.blog-name {
     font-size: 3em;
 }*/
-        
+
+
 /* Style code text */
-.post-content code, .post-content tt {
+
+.post-content code,
+.post-content tt {
     position: unset;
     background: white;
     border: none;
     margin: 0 0px;
     padding: 0 0px;
     font-size: 0.9em;
-}   
+}
+
 
 /* Post titles and links */
-.post-title a, .post-nav-title, a:link, a:visited {
+
+.post-title a,
+.post-nav-title,
+a:link,
+a:visited {
     text-decoration: none !important;
     color: #377dff;
 }
 
+
 /* All font family */
-body, .post-excerpt, .post-title p, .post-content p, .blog-description,
-.post-nav-title, .post-nav-excerpt, .post-content b, .post-content strong,
+
+body,
+.post-excerpt,
+.post-title p,
+.post-content p,
+.blog-description,
+.post-nav-title,
+.post-nav-excerpt,
+.post-content b,
+.post-content strong,
 .post-content li {
     font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
 }
 
+
 /* ... except header subtitle font */
+
 .blog-description {
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
 
+
 /* Make bold text bold */
-.post-content b, .post-content strong {
+
+.post-content b,
+.post-content strong {
     font-weight: bold;
 }
 
+
 /* Post titles and links on hover and click */
-a:hover, a:active {
+
+a:hover,
+a:active {
     color: #5c48fe;
 }
 
-/* No orange underlime for links */
+
+/* No orange underline for links */
+
 .post-content a {
     box-shadow: none;
 }
 
+
 /* No background color under the share button images */
+
 .post-share a i {
     color: white;
 }
 
+
 /* No background in tables */
+
 .post-content table {
     background: white;
 }
 
+
 /* Less padding in table cells */
-.post-content table td, .post-content table th {
-    padding: 0.5rem;  
+
+.post-content table td,
+.post-content table th {
+    padding: 0.5rem;
 }
 
-/* Make the prograssbar modular blue instead of orange */
+
+/* Make the progress bar modular blue instead of orange */
+
 .progress-bar {
     background: #7465FE;
 }
 
-/* Hide LinkedIn and Email share buttons */
-.email, .linkedin {
-    visibility: collapse;
+
+/* Put footer centered and right below content */
+
+.nav-footer {
+    padding-top: unset;
+    padding-bottom: 10em;
+    text-align: center;
+    max-width: calc(64rem + 8vw);
+    margin: 0 auto;
 }
 
+.nav-footer .nav-wrapper {
+    display: inline;
+}
+
+
+/* Footer text */
+
+.nav-credits,
+.nav-copy {
+    font-size: 1em;
+}
+
+
 /* <span> for font coloring */
+
 #green {
     color: #00c9a7;
 }
+
 #yellow {
     color: #ffc107;
 }
+
 #red {
     color: #de4437;
 }
