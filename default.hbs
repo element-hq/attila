@@ -10,6 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/customStyle.css"}}" />
+	<link rel="stylesheet" href="https://modular.im/_next/static/fonts.css">
 
 	{{ghost_head}}
 </head>
@@ -25,6 +27,7 @@
 				{{/if}}
 				{{navigation}}
 				<ul class="nav-side">
+					<li class="nav-go-to-modular-im" role="presentation"><a href="https://modular.im" target="_blank"><span>Go to Modular.im</span></a></li>
 					{{#if @site.twitter}}
 					<li class="nav-twitter"><a title="Twitter" href="{{twitter_url}}" title="{{@site.twitter}}" target="_blank"><i class="icon icon-twitter"></i><span>Twitter</span></a></li>
 					{{/if}}
