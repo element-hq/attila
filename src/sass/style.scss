@@ -24,7 +24,7 @@ html.menu-active {
 }
 
 body {
-	font: 400 1em / 1.5em 'Fira Sans', sans-serif;
+	font: 400 1em / 1.5em "Nunito Sans", Helvetica, Arial, sans-serif;
 	color: $color-text-primary;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -42,6 +42,16 @@ input,
 select,
 textarea {
 	transition: all ease-out 0.2s;
+}
+
+.logo-wrapper {
+	display: inline-block;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	margin-right: 1rem;
+	font-size: 1rem;
+	line-height: inherit;
+	white-space: nowrap;
 }
 
 .post-content {
@@ -768,9 +778,10 @@ textarea {
 	display: block;
 	margin: 0;
 	padding: 0;
-	font-weight: 700;
-	font-size: 6em;
-	line-height: 1em;
+	font-weight: 300;
+	text-align: left;
+	font-size: 32pt;
+	line-height: 1.5;
 	text-decoration: none;
 	color: #000;
 	@media (prefers-color-scheme: dark) {
@@ -1091,6 +1102,7 @@ textarea {
    Navigation
    ========================================================================== */
 .nav-header {
+	background-color: #ffffff;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1125,6 +1137,14 @@ textarea {
 	@media only screen and (max-width: $breakpoint-medium) {
 		display: block;
 	}
+}
+
+.nav-wrapper {
+	max-width: 1140px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .nav-header .nav-wrapper-control {
@@ -1222,21 +1242,14 @@ textarea {
 }
 
 .nav-header .logo {
+	background-size: 150px 24px;
+	display: inline-block;
+	height: 24px;
+	width: 150px;
+	flex-shrink: 0;
 	margin-right: 3rem;
 	@media only screen and (max-width: $breakpoint-medium) {
 		display: none;
-	}
-
-	a {
-		display: block;
-		height: 4rem;
-		padding: 0;
-
-		img {
-			display: block;
-			width: auto;
-			height: 4rem;
-		}
 	}
 }
 
@@ -1266,37 +1279,14 @@ textarea {
 	margin-right: 3rem;
 
 	&.active {
-		a:before {
-			position: absolute;
-			content: '';
-			width: 100%;
-			height: 3px;
-			left: 0;
-			top: 0;
-			padding: 0 1rem;
-			margin-left: -1rem;
-			margin-top: -2rem;
-			background: $color-primary;
-			@media only screen and (max-width: $breakpoint-medium) {
-				left: 0;
-				top: 50%;
-				width: 1.5rem;
-				height: 2px;
-				margin-left: 6px;
-				margin-top: -1px;
-				border-radius: 2px;
-				padding: 0;
-			}
-		}
-
 		a {
-			color: $color-neutral-25;
+			color: #77838f;
 			font-weight: 500;
 			@media (prefers-color-scheme: dark) {
 				color: $color-neutral-90;
 			}
 			@media only screen and (max-width: $breakpoint-medium) {
-				color: #FFF;
+				color: #77838f;
 			}
 		}
 	}
@@ -1304,7 +1294,7 @@ textarea {
 	a {
 		display: block;
 		padding: 1rem 0;
-		font-size: 1.5em;
+		font-size: 18px;
 		line-height: 2rem;
 		color: $color-neutral-60;
 		white-space: nowrap;
@@ -1316,29 +1306,16 @@ textarea {
 		@media only screen and (max-width: $breakpoint-medium) {
 			font-size: 2em;
 			padding-left: 4rem;
-
-			&:before {
-				content: '';
-				position: absolute;
-				left: 0;
-				top: 50%;
-				width: 1.5rem;
-				height: 2px;
-				margin-left: 6px;
-				margin-top: -1px;
-				border-radius: 2px;
-				background: $color-neutral-25;
-			}
 		}
 
 		&:focus,
 		&:hover {
-			color: $color-neutral-25;
+			color: #7465FE;
 			@media (prefers-color-scheme: dark) {
 				color: $color-neutral-90;
 			}
 			@media only screen and (max-width: $breakpoint-medium) {
-				color: $color-neutral-80;
+				color: #7465FE;
 			}
 		}
 	}
@@ -1366,31 +1343,31 @@ textarea {
 
 .cover-active {
 	.nav-wrapper-control a {
-		color: rgba(255,255,255,0.8);
+		color: #77838f;
 
 		&:focus,
 		&:hover {
-			color: #FFF;
+			color: #7465FE;
 		}
 	}
 
 	.nav-header li {
 		a {
 			@media only screen and (min-width: $breakpoint-medium) {
-				color: rgba(255,255,255,0.8);
+				color: #77838f;
 			}
 
 			&:focus,
 			&:hover {
 				@media only screen and (min-width: $breakpoint-medium) {
-					color: #FFF;
+					color: #7465FE;
 				}
 			}
 		}
 
 		&.active a {
 			@media only screen and (min-width: $breakpoint-medium) {
-				color: #FFF;
+				color: #8C6AFF;
 			}
 		}
 	}
