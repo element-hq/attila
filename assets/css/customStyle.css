@@ -196,7 +196,8 @@ a:active {
 }
 
 .nav-footer .nav-wrapper {
-    display: inline;
+    display: block;
+    text-align: center;
 }
 
 
