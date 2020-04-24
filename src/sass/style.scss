@@ -725,7 +725,7 @@ textarea {
 	.blog-box {
 		position: relative;
 		z-index: 10;
-		padding-bottom: calc(4rem + 2vw);
+		padding-bottom: 4rem;
 		text-align: center;
 		border-bottom: 1px solid $color-border;
 		@media (prefers-color-scheme: dark) {
@@ -735,7 +735,7 @@ textarea {
 
 	&.has-cover .blog-box {
 		border: none;
-		padding-bottom: calc(8rem + 4vw);
+		padding-bottom: 7rem;
 	}
 }
 
@@ -779,7 +779,7 @@ textarea {
 	margin: 0;
 	padding: 0;
 	font-weight: 300;
-	text-align: left;
+	text-align: center;
 	font-size: 32pt;
 	line-height: 1.5;
 	text-decoration: none;
@@ -1148,6 +1148,7 @@ textarea {
 }
 
 .nav-header .nav-wrapper-control {
+	background: #FFF;
 	position: absolute;
 	z-index: 500;
 	left: 0;
@@ -1210,14 +1211,10 @@ textarea {
 }
 
 .menu-active .nav-header .nav-wrapper-control {
-	background: $color-neutral-15;
+	background: #FFF;
 	color: $color-text-secondary;
 	border-color: $color-border-dark;
-	@supports (-webkit-backdrop-filter: blur(2rem)) {
-		background: rgba(34,36,38,0.9);
-		-webkit-backdrop-filter: blur(2rem);
-	}
-
+	background: #FFF;
 	a {
 		&:focus,
 		&:hover {
@@ -1232,7 +1229,7 @@ textarea {
 	padding: 2rem 4rem;
 	overflow-y: auto;
 	@media only screen and (max-width: $breakpoint-medium) {
-		background: $color-neutral-15;
+		background: #FFF;
 		flex-direction: column;
 		@supports (-webkit-backdrop-filter: blur(2rem)) {
 			background: rgba(34,36,38,0.9);
